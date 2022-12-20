@@ -1,0 +1,57 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="bearssl" target="8" version="2">
+  <configuration
+    Name="Common"
+    arm_architecture="v7EM"
+    arm_core_type="Cortex-M4"
+    arm_fp_abi="Hard"
+    arm_fpu_type="FPv4-SP-D16" />
+  <configuration
+    Name="Debug"
+    c_preprocessor_definitions="DEBUG"
+    gcc_debugging_level="Level 3"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="None"
+    hidden="Yes" />
+  <configuration
+    Name="Flash"
+    c_preprocessor_definitions="__FLASH_BUILD"
+    hidden="Yes" />
+  <configuration Name="RAM" hidden="Yes" />
+  <configuration
+    Name="Release"
+    arm_architecture="v7EM"
+    arm_core_type="Cortex-M7"
+    arm_fp_abi="Hard"
+    c_preprocessor_definitions="NDEBUG"
+    gcc_debugging_level="None"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="Optimize For Size"
+    hidden="Yes" />
+  <configuration Name="ReleaseM4" hidden="Yes" />
+  <configuration
+    Name="THUMB"
+    Platform="ARM"
+    arm_instruction_set="Thumb"
+    arm_library_instruction_set="Thumb"
+    c_preprocessor_definitions="__THUMB"
+    hidden="Yes" />
+  <configuration
+    Name="THUMB Flash Debug"
+    inherited_configurations="THUMB;Flash;Debug" />
+  <configuration
+    Name="THUMB Release M4"
+    inherited_configurations="Flash;THUMB;ReleaseM4" />
+  <configuration
+    Name="Thumb Release"
+    inherited_configurations="THUMB;Release;Flash" />
+  <project Name="bearssl">
+    <configuration
+      Name="Common"
+      c_user_include_directories=".;$(ProjectDir)/src;$(ProjectDir)/inc"
+      project_directory=""
+      project_type="Library" />
+    <folder Name="inc" exclude="" filter="*.h" path="inc" recurse="Yes" />
+    <folder Name="src" exclude="" filter="*.c" path="src" recurse="Yes" />
+  </project>
+</solution>

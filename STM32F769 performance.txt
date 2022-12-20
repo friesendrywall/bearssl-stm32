@@ -1,0 +1,161 @@
+testspeed all
+MD5                               18.71 MB/s
+SHA-1                             11.86 MB/s
+SHA-256                            8.81 MB/s
+SHA-512                            3.85 MB/s
+AES-128 CBC encrypt (big)          3.47 MB/s
+AES-128 CBC decrypt (big)          3.38 MB/s
+AES-192 CBC encrypt (big)          2.99 MB/s
+AES-192 CBC decrypt (big)          2.94 MB/s
+AES-256 CBC encrypt (big)          2.63 MB/s
+AES-256 CBC decrypt (big)          2.60 MB/s
+AES-128 CTR (big)                  3.36 MB/s
+AES-192 CTR (big)                  2.90 MB/s
+AES-256 CTR (big)                  2.56 MB/s
+AES-128 CBC encrypt (small)        1.08 MB/s
+AES-128 CBC decrypt (small)        0.60 MB/s
+AES-192 CBC encrypt (small)        0.91 MB/s
+AES-192 CBC decrypt (small)        0.50 MB/s
+AES-256 CBC encrypt (small)        0.79 MB/s
+AES-256 CBC decrypt (small)        0.43 MB/s
+AES-128 CTR (small)                1.07 MB/s
+AES-192 CTR (small)                0.91 MB/s
+AES-256 CTR (small)                0.79 MB/s
+AES-128 CBC encrypt (ct)           0.88 MB/s
+AES-128 CBC decrypt (ct)           1.31 MB/s
+AES-192 CBC encrypt (ct)           0.74 MB/s
+AES-192 CBC decrypt (ct)           1.10 MB/s
+AES-256 CBC encrypt (ct)           0.64 MB/s
+AES-256 CBC decrypt (ct)           0.95 MB/s
+AES-128 CTR (ct)                   1.69 MB/s
+AES-192 CTR (ct)                   1.43 MB/s
+AES-256 CTR (ct)                   1.24 MB/s
+AES-128 CBC encrypt (ct64)         0.48 MB/s
+AES-128 CBC decrypt (ct64)         1.33 MB/s
+AES-192 CBC encrypt (ct64)         0.40 MB/s
+AES-192 CBC decrypt (ct64)         1.12 MB/s
+AES-256 CBC encrypt (ct64)         0.35 MB/s
+AES-256 CBC decrypt (ct64)         0.97 MB/s
+AES-128 CTR (ct64)                 1.73 MB/s
+AES-192 CTR (ct64)                 1.48 MB/s
+AES-256 CTR (ct64)                 1.30 MB/s
+AES-128 CBC encrypt (x86ni)    UNAVAILABLE
+AES-128 CBC decrypt (x86ni)    UNAVAILABLE
+AES-192 CBC encrypt (x86ni)    UNAVAILABLE
+AES-192 CBC decrypt (x86ni)    UNAVAILABLE
+AES-256 CBC encrypt (x86ni)    UNAVAILABLE
+AES-256 CBC decrypt (x86ni)    UNAVAILABLE
+AES-128 CTR (x86ni)            UNAVAILABLE
+AES-192 CTR (x86ni)            UNAVAILABLE
+AES-256 CTR (x86ni)            UNAVAILABLE
+AES-128 CBC encrypt (pwr8)     UNAVAILABLE
+AES-128 CBC decrypt (pwr8)     UNAVAILABLE
+AES-192 CBC encrypt (pwr8)     UNAVAILABLE
+AES-192 CBC decrypt (pwr8)     UNAVAILABLE
+AES-256 CBC encrypt (pwr8)     UNAVAILABLE
+AES-256 CBC decrypt (pwr8)     UNAVAILABLE
+AES-128 CTR (pwr8)             UNAVAILABLE
+AES-192 CTR (pwr8)             UNAVAILABLE
+AES-256 CTR (pwr8)             UNAVAILABLE
+DES CBC encrypt (tab)              1.86 MB/s
+DES CBC decrypt (tab)              1.79 MB/s
+3DES CBC encrypt (tab)             0.76 MB/s
+3DES CBC decrypt (tab)             0.75 MB/s
+DES CBC encrypt (ct)               0.58 MB/s
+DES CBC decrypt (ct)               0.57 MB/s
+3DES CBC encrypt (ct)              0.20 MB/s
+3DES CBC decrypt (ct)              0.20 MB/s
+ChaCha20 (ct)                     10.95 MB/s
+ChaCha20 (sse2)                UNAVAILABLE
+GHASH (ctmul)                      3.36 MB/s
+GHASH (ctmul32)                    3.12 MB/s
+GHASH (ctmul64)                    2.78 MB/s
+GHASH (pclmul)                 UNAVAILABLE
+GHASH (pwr8)                   UNAVAILABLE
+Poly1305 (ctmul)                  25.87 MB/s
+Poly1305 (ctmul32)                 5.97 MB/s
+Poly1305 (ctmulq)              UNAVAILABLE
+Poly1305 (i15)                     1.18 MB/s
+EAX AES-128(big)                   1.72 MB/s
+EAX AES-192(big)                   1.48 MB/s
+EAX AES-256(big)                   1.30 MB/s
+EAX AES-128(small)                 0.54 MB/s
+EAX AES-192(small)                 0.45 MB/s
+EAX AES-256(small)                 0.39 MB/s
+EAX AES-128(ct)                    0.85 MB/s
+EAX AES-192(ct)                    0.72 MB/s
+EAX AES-256(ct)                    0.62 MB/s
+EAX AES-128(ct64)                  0.46 MB/s
+EAX AES-192(ct64)                  0.39 MB/s
+EAX AES-256(ct64)                  0.34 MB/s
+EAX AES-128(x86ni)             UNAVAILABLE
+EAX AES-192(x86ni)             UNAVAILABLE
+EAX AES-256(x86ni)             UNAVAILABLE
+EAX AES-128(pwr8)              UNAVAILABLE
+EAX AES-192(pwr8)              UNAVAILABLE
+EAX AES-256(pwr8)              UNAVAILABLE
+SHAKE128 (inject)                  3.81 MB/s
+SHAKE128 (produce)                 3.72 MB/s
+SHAKE256 (inject)                  3.10 MB/s
+SHAKE256 (produce)                 3.01 MB/s
+RSA i15                            1.49 priv/s
+RSA i15                           25.60 pub/s
+RSA i15                            0.36 kgen[1024]/s
+RSA i31                            4.85 priv/s
+RSA i31                           87.34 pub/s
+RSA i31                            0.80 kgen[1024]/s
+RSA i32                            1.66 priv/s
+RSA i32                           35.27 pub/s
+RSA i32                        KEYGEN UNAVAILABLE
+RSA i62                        UNAVAILABLE
+EC prime_i15 P-256                 8.83 mul/s
+EC prime_i15 P-256 (FP)            8.83 mul/s
+EC prime_i15 P-384                 3.29 mul/s
+EC prime_i15 P-384 (FP)            3.29 mul/s
+EC prime_i15 P-521                 1.44 mul/s
+EC prime_i15 P-521 (FP)            1.44 mul/s
+EC prime_i31 P-256                22.05 mul/s
+EC prime_i31 P-256 (FP)           22.05 mul/s
+EC prime_i31 P-384                 9.03 mul/s
+EC prime_i31 P-384 (FP)            9.03 mul/s
+EC prime_i31 P-521                 4.43 mul/s
+EC prime_i31 P-521 (FP)            4.43 mul/s
+EC p256_m15                       20.56 mul/s
+EC p256_m15 (FP)                  30.85 mul/s
+EC p256_m31                       43.30 mul/s
+EC p256_m31 (FP)                  61.94 mul/s
+EC p256_m62                    UNAVAILABLE
+EC p256_m64                    UNAVAILABLE
+EC c25519_i15                     16.74 mul/s
+EC c25519_i15 (FP)                16.75 mul/s
+EC c25519_i31                     38.57 mul/s
+EC c25519_i31 (FP)                38.55 mul/s
+EC c25519_m15                     56.22 mul/s
+EC c25519_m15 (FP)                56.22 mul/s
+EC c25519_m31                    154.07 mul/s
+EC c25519_m31 (FP)               153.99 mul/s
+EC c25519_m62                  UNAVAILABLE
+EC c25519_m64                  UNAVAILABLE
+ECDSA m15 P-256                   22.83 sign/s
+ECDSA m15 P-256                   11.12 verify/s
+ECDSA m31 P-256                   48.34 sign/s
+ECDSA m31 P-256                   23.65 verify/s
+ECDSA m62 P-256                UNAVAILABLE
+ECDSA m64 P-256                UNAVAILABLE
+ECDSA i15 P-256                    8.03 sign/s
+ECDSA i15 P-256                    4.41 verify/s
+ECDSA i15 P-384                    2.99 sign/s
+ECDSA i15 P-384                    1.65 verify/s
+ECDSA i15 P-521                    1.30 sign/s
+ECDSA i15 P-521                    0.72 verify/s
+ECDSA i31 P-256                   20.04 sign/s
+ECDSA i31 P-256                   11.00 verify/s
+ECDSA i31 P-384                    8.19 sign/s
+ECDSA i31 P-384                    4.51 verify/s
+ECDSA i31 P-521                    4.01 sign/s
+ECDSA i31 P-521                    2.21 verify/s
+i31 to_monty                    8681.64 ops/s
+i31 from_monty                 51104.18 ops/s
+i31 montymul                   48834.58 ops/s
+i31 moddiv                       963.13 ops/s
+

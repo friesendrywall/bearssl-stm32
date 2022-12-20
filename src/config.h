@@ -25,6 +25,8 @@
 #ifndef CONFIG_H__
 #define CONFIG_H__
 
+#define BR_ARMEL_CORTEXM_GCC   1
+
 /*
  * This file contains compile-time flags that can override the
  * autodetection performed in relevant files. Each flag is a macro; it
